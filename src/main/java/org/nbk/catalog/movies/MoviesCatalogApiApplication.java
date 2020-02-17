@@ -16,10 +16,10 @@ public class MoviesCatalogApiApplication {
 		SpringApplication.run(MoviesCatalogApiApplication.class, args);
 	}
 	
-	/*@Bean
+	@Bean
 	@LoadBalanced
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
-	}*/
+	}
 
 }
